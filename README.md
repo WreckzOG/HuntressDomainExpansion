@@ -8,11 +8,11 @@ An extra ability for **Huntress**. Deal damage to fill the meter, then press **T
 
 ## Demo
 
-[![Huntress inside Endless Arrow Rain](https://github.com/WreckzOG/HuntressDomainExpansion/releases/download/v1.0.0/huntress-domain-screenshot.png)](https://github.com/WreckzOG/HuntressDomainExpansion/releases/download/v1.0.0/huntress-domain-demo.mp4)
+[![Endless Arrow Rain gameplay preview](https://github.com/WreckzOG/HuntressDomainExpansion/releases/download/v1.0.1/huntress-domain-preview.gif)](https://github.com/WreckzOG/HuntressDomainExpansion/releases/download/v1.0.0/huntress-domain-demo.mp4)
 
 **[Watch / download the gameplay demo (1:30)](https://github.com/WreckzOG/HuntressDomainExpansion/releases/download/v1.0.0/huntress-domain-demo.mp4)** · **[View full-size screenshot](https://github.com/WreckzOG/HuntressDomainExpansion/releases/download/v1.0.0/huntress-domain-screenshot.png)**
 
-The supplied demo and screenshot were captured during development. The F6 / TEST CAST control shown in them has been removed from this release. Every cast requires a full damage-charge meter.
+![Huntress inside Endless Arrow Rain](https://github.com/WreckzOG/HuntressDomainExpansion/releases/download/v1.0.0/huntress-domain-screenshot.png)
 
 ## What the domain does
 
@@ -28,15 +28,13 @@ The supplied demo and screenshot were captured during development. The F6 / TEST
 
 Charge comes from damage dealt to enemies. The default requirement is **100 times your level-scaled base damage** (1200 damage at level 1). Charge persists between stages and does not build during the opening or active domain. Casting spends the entire meter.
 
-There is **no free-cast key, test button, or testing configuration**. The server enforces ownership, a living Huntress, full charge, and no active cast.
-
 ## Installation
 
 Install with **r2modman** or **Thunderstore Mod Manager** and launch the game modded. BepInExPack installs as a dependency.
 
 For manual installation, install BepInExPack first, then copy the included `plugins/HuntressDomainExpansion` folder into `BepInEx/plugins`.
 
-Restart the game after installing. This is a standalone Huntress release. Disable the development **Survivor Domains** plugin before using it; the two are intentionally marked incompatible to prevent duplicate abilities and network handlers.
+Restart the game after installing. This is a standalone Huntress release.
 
 ## Configuration and difficulty
 
